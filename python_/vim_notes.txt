@@ -1,0 +1,6 @@
+NOTE: SET THESE IN ~/.vimrc file then only these settings will work everytime otherwise we need to apply these everytime we open a file.
+ 
+to set numbers in the left side -> :set number
+to set relative numbers -> set relativenumber
+to set mouse actions -> set mouse=a (active)
+
