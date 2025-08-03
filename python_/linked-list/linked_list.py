@@ -9,7 +9,7 @@ class LinkedList:
     def __init__(self):
         self.head = None
         self.length = 0
-        
+
     def insert_at_last(self, val):
         new_node = Node(val)
         if self.head is None:
@@ -68,24 +68,3 @@ class LinkedList:
         node.next = next_node
         self.length += 1
         return index
-
-
-l = LinkedList()
-for val in range(10, 25):
-    l.insert_at_last(val)
-
-l.insert(0, 40)
-
-l.show_all_items()
-print(l.length)
-#print(l.get(0))
-#print(l.get(1))
-#print(l.get(2))
-#print(l.get(7))
-#print(l.get(20))
-
-
-
-
-
-
